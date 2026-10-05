@@ -13,7 +13,6 @@ venv/
 *.bin
 *.pt
 *.onnx
-data/corpus.csv
 
 # Secrets and local config
 .env

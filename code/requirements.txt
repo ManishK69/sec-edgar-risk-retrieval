@@ -1,0 +1,23 @@
+# CAP 6776 — SEC EDGAR IR System
+# Python 3.9+
+# GPU recommended for sentence-transformers encoding
+
+# Core data handling
+pandas>=1.5.0
+numpy>=1.23.0
+
+# NLP preprocessing
+nltk>=3.8.0
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# Dense retrieval & re-ranking
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# Visualization
+matplotlib>=3.6.0
+
+# Query interface
+gradio>=4.0.0

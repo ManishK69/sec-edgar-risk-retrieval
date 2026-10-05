@@ -43,14 +43,10 @@ financial text. Full analysis in `paper/Final_Project_Memo.pdf`.
 
 ```
 ├── code/       # main.ipynb (full pipeline), requirements.txt
-├── data/       # queries.csv, qrels.csv (+ pooled qrels)
+├── data/       # corpus.csv, queries.csv, qrels.csv (+ pooled qrels)
 ├── output/     # metric plots and summaries
 └── paper/      # Final_Project_Memo.pdf (executive memo)
 ```
-
-> **Note:** `data/corpus.csv` (the 2,807 processed document chunks) is not
-> committed — notebook Cell 0 regenerates it from the source 10-K JSON files
-> (see `code/README.md` for the Drive setup).
 
 ## Setup
 
